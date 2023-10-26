@@ -19,6 +19,6 @@ Some topics that are coverd are:
 ## Examples
 
 <p align="center">
-  <img src="train_val_loss_NN_MNIST.png" width="200" />
+  <img src="train_val_loss_NN_MNIST.png" width="500" />
 </p>
 
