@@ -1,7 +1,7 @@
 # Introduction to Deep learning with Scikit-Learn and PyTorch
 
 <p align="center">
-  <img src="digits.png" width="200" />
+  <img src="digits.png" width="300" />
 </p>
 
 ## The Goal of this Repository
@@ -19,6 +19,6 @@ Some topics that are coverd are:
 ## Examples
 
 <p align="center">
-  <img src="train_val_loss_NN_MNIST.png" width="500" />
+  <img src="train_val_loss_NN_MNIST.png" width="400" />
 </p>
 
