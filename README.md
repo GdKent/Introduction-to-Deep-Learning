@@ -1,1 +1,1 @@
-# Intro-to-Deep-Learning-with-SkLearn-and-PyTorch
+# Introduction to Deep learning with Scikit-Learn and PyTorch
