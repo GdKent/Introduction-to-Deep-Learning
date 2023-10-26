@@ -18,6 +18,7 @@ Some topics that are coverd are:
 
 ## Examples
 
+A figure plotting the training and validation loss of a NN on the MNIST dataset.
 <p align="center">
   <img src="train_val_loss_NN_MNIST.png" width="400" />
 </p>
