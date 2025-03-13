@@ -1,4 +1,4 @@
-# Introduction to Deep learning with Scikit-Learn and PyTorch
+# Introduction to Deep learning
 
 <p align="center">
   <img src="digits.png" width="300" />
