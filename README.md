@@ -17,17 +17,31 @@ This repository serves as a place where I will keep a portfolio of a variety of 
 
 ## Introduction
 
+---
+
 ##Austen-Net: A Transformer Decoder Language Model for Text Generation
+
+---
 
 ##Lit-Net: A Transformer Endoder for Literature Embeddings
 
+---
+
 ##Audio-Net: An Audio Classification Model via Image Recognition
+
+---
 
 ##Multi-Net: Multi-Modal Architectures
 
+---
+
 ##Acknowledgements
 
+---
+
 ##License
+
+---
 
 
 
