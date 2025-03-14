@@ -1,7 +1,7 @@
 # Introduction to Deep learning
 
 <p align="center">
-  <img src="img1.png" width="300" />
+  <img src="img1.PNG" width="300" />
 </p>
 
 This repository serves as a place where I will keep a portfolio of a variety of different deep learning projects. These projects are meant to serve as reference for working with different types of deep learning models on different types of data (images, audio, text, multi-modal, etc.).
