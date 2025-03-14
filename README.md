@@ -4,22 +4,32 @@
   <img src="digits.png" width="300" />
 </p>
 
-## The Goal of this Repository
-This repo contains a series of Jupyter notebooks that aim at serving as an introduction to computing with deep neural networks in python.
+This repository serves as a place where I will keep a portfolio of a variety of different deep learning projects. These projects are meant to serve as reference for working with different types of deep learning models on different types of data (images, audio, text, multi-modal, etc.).
 
-Some topics that are coverd are:
+## Table of Contents
+1. [Introduction to Deep Learning](#intro)
+2. [Austen-Net: Transformer Decoder Language Model for Text Generation](#austen-net)
+3. [Lit-Net: Transformer Endoder for Literature Embeddings](#lit-net)
+4. [Audio-Net: Audio Classification via Image Recognition](#audio-net)
+5. [Multi-Net: Multi-Modal Architectures](#multi-net)
+6. [Acknowledgments](#acknowledgments)
+7. [License](#license)
 
-+ Indrocing image data
-+ Introducing Pytorch
-+ Defining NNs in sklearn and Pytorch
-+ Writing a basic pipeline for training NNs in Pytorch
-+ Introducing convolutional neural networks with Pytorch
+## Introduction
+
+##Austen-Net: A Transformer Decoder Language Model for Text Generation
+
+##Lit-Net: A Transformer Endoder for Literature Embeddings
+
+##Audio-Net: An Audio Classification Model via Image Recognition
+
+##Multi-Net: Multi-Modal Architectures
+
+##Acknowledgements
+
+##License
 
 
-## Examples
 
-+ Plotting the training and validation loss of a NN on the MNIST dataset.
-<p align="center">
-  <img src="train_val_loss_NN_MNIST.png" width="400" />
-</p>
+
 
