@@ -47,7 +47,21 @@ The dataset that was utilized for this project was the well-known [GTZAN music g
 
 ![](Figures/Audio-Net_Figures/Audio-Net_Batch_Accuracy.png)
 
-## Multi-Net: Multi-Modal Architectures
+
+
+## Multi-Net: Multi-Modal Architecture for Video Recommendation
+This project consists of building a video recommendation engine using the well-known MSR-VTT Dataset. This is accomplished by generating embeddings (where each embedding comes from a pre-trained model that is fine-tuned to this dataset via transfer learning) for each of the modalities and combining them in an early fusion design. The model is then trained via representation learning with a contrastive loss function to pull similar embeddings closer together in the resulting vector space while pushing dissimilar embeddings further apart.
+
+### Video Encoder
+
+
+### Audio Encoder
+
+
+### Text Encoder
+
+
+### Early Fusion Multi-Modal Architecture
 
 
 
