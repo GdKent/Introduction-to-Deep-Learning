@@ -19,7 +19,7 @@ This repository serves as a place where I will keep a portfolio of a variety of 
 
 ## Austen-Net: A Transformer Decoder Language Model for Text Generation
 
-![](Figures/Austen-Net Figures/Austen-Net_Training.png)
+![](Figures/Austen-Net_Figures/Austen-Net_Training.png)
 
 ## Lit-Net: A Transformer Endoder for Literature Embeddings
 
