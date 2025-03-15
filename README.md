@@ -27,7 +27,9 @@ This repository serves as a place where I will keep a portfolio of a variety of 
 
 ## Audio-Net: An Audio Classification Model via Image Recognition
 
+![](Figures/Audio-Net_Figures/Audio-Net_Training.png)
 
+![](Figures/Audio-Net_Figures/Audio-Net_Batch_Accuracy.png)
 
 ## Multi-Net: Multi-Modal Architectures
 
