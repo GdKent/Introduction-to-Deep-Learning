@@ -19,6 +19,16 @@ This repository serves as a place where I will keep a portfolio of a variety of 
 
 ## Austen-Net: A Transformer Decoder Language Model for Text Generation
 
+The dataset consisted of the eight following novels by Jane Austen:
+- Persuasion
+- Northanger Abbey
+- Mansfield Park
+- Emma
+- Lady Susan
+- Love and Friendship and Other Early Works
+- Pride and Prejudice
+- Sense and Sensibility
+
 ![](Figures/Austen-Net_Figures/Austen-Net_Training.png)
 
 ## Lit-Net: A Transformer Endoder for Literature Embeddings
