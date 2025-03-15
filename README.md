@@ -31,6 +31,10 @@ The dataset consisted of the eight following novels by Jane Austen:
 
 ![](Figures/Austen-Net_Figures/Austen-Net_Training.png)
 
+![](Figures/Austen-Net_Figures/Generated_Text.PNG)
+
+
+
 ## Lit-Net: A Transformer Endoder for Literature Embeddings
 
 
