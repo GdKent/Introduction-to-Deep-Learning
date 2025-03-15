@@ -50,7 +50,7 @@ The dataset that was utilized for this project was the well-known [GTZAN music g
 
 
 ## Multi-Net: Multi-Modal Architecture for Video Recommendation
-This project consists of building a video recommendation engine using the well-known [MSR-VTT Dataset]([https://cove.thecvf.com/datasets/839](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/06/cvpr16.msr-vtt.tmei_-1.pdf)). This is accomplished by generating embeddings (where each embedding comes from a pre-trained model that is fine-tuned to this dataset via transfer learning) for each of the modalities and combining them in an early fusion design. The model is then trained via representation learning with a contrastive loss function to pull similar embeddings closer together in the resulting vector space while pushing dissimilar embeddings further apart.
+This project consists of building a video recommendation engine using the well-known [MSR-VTT Dataset]([https://cove.thecvf.com/datasets/839](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/06/cvpr16.msr-vtt.tmei_-1.pdf). This is accomplished by generating embeddings (where each embedding comes from a pre-trained model that is fine-tuned to this dataset via transfer learning) for each of the modalities and combining them in an early fusion design. The model is then trained via representation learning with a contrastive loss function to pull similar embeddings closer together in the resulting vector space while pushing dissimilar embeddings further apart.
 
 ### Video Encoder
 
