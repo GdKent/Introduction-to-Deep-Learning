@@ -63,7 +63,7 @@ This project consists of building a video recommendation engine using the well-k
 
 ### Early Fusion Multi-Modal Architecture
 
-![](Figures/Multi-Net_Figures/Mullti-Net_Training.png)
+![](Figures/Multi-Net_Figures/Multi-Net_Training.png)
 
 
 
