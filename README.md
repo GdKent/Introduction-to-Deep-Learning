@@ -5,12 +5,12 @@
 This repository serves as a place where I will keep a portfolio of a variety of different deep learning projects. These projects are meant to serve as references for working with different types of deep learning models on different unstructures data types (images, audio, text, multi-modal, etc.).
 
 ## Table of Contents
-1. [Introduction to Deep Learning](#intro)
-2. [Audio-Net: Audio Classification via Image Recognition](#audio-net)
-3. [Austen-Net: Transformer Decoder Language Model for Text Generation](#austen-net)
-4. [Multi-Net: Multi-Modal Architectures](#multi-net)
-5. [Acknowledgments](#acknowledgments)
-6. [License](#license)
+1. Introduction to Deep Learning
+2. Audio-Net: Audio Classification via Image Recognition
+3. Austen-Net: Transformer Decoder Language Model for Text Generation
+4. Multi-Net: Multi-Modal Architectures
+5. Acknowledgments
+6. License
 
 ## Introduction to Neural Networks with Scikit-Learn and Pytorch
 This goal of this project is to serve as a gentle introduction to neural networks (NNs). The code associated with this project is straightforward and is mostly meant to serve as a reference to working with NNs in Scikit-Learn and PyTorch. As such, this project can be split into two parts: (1) NNs with Scikit-Learn and (2) NNs with PyTorch.
