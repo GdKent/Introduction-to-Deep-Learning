@@ -29,9 +29,18 @@ I then introduce code for going about implementing a simple MLP for this dataset
 
 ## Audio-Net: An Audio Classification Model via Image Recognition
 
-The dataset that was utilized for this project was the well-known [GTZAN music genre classification dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification?resource=download).
+The goal of this project is to serve as an introduction to more advanced deep learning techniques that can be applied to solving problems with unstructured data, in this case audio data. 
+Specifically, this project aims at training a deep NN to classify different audio samples (a time-dependant sequential data-type) via image recognition. This is accomplished by converting each of the audio wave samples to images of their corresponding mel-scale spectrograms by applying the short-time Fourier-transform (STFT). One can then train a convolutional NN on the resulting spectrogram images, which in this case is accomplished my importing a pre-trained ResNet18 model and fine-tuning it to our dataset via transfer learning.
+
+The dataset that was utilized for this project was the well-known [GTZAN music genre classification dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification?resource=download), which consists audio wave samples of songs / instruments and where the goal is to propperly classify the music genre of any given audio sample (jazz, metal, disco, rock, etc.).
+
+(Insert image here of raw audio-wave and corresponding spectrogram)
+
+The code provided for this project features a series of different data augmentations that can be applied to the spectrogram images to yeild more training data as well as help the model generalize better. Further, the loss of the model can be plotted over the training iterations (as displayed below) and the training algorithm itself is set-up to plot real-time model improvements.
 
 ![](Figures/Audio-Net_Figures/Audio-Net_Training.png)
+
+Once the model has been trained, one can devise any number of evaluation metrics to understand the performance of the model on new data. Below is a simple display of some spectrograms, paired with their true labels and the predicted label. Similar to the first project, the model in this project is has by no means been hyper-parameter tuned to perfection, and performance could certainly be improved by choosing more specialized learning parameters as well as implementing different data augmentations. However, as was seen above, the model is indeed able to learn, which is the only goal of the remaining projects (to have successfully implementable code for training these models; past that, it is a matter of hyper-parameter tuning and throwing more GPUs and training time at it...).
 
 ![](Figures/Audio-Net_Figures/Audio-Net_Batch_Accuracy.png)
 
