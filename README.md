@@ -21,7 +21,7 @@ The second part of this project focuses on implementing a similar MLP with PyTor
 
 ![](Figures/Intro_Figures/MNIST_Batch.PNG)
 
-We Then introduce code for going about implementing a simple MLP for this dataset along with the algorithm for training the model. Notice that although MNIST is a dataset of images, we are only utilizing a feed-forward network to start and not a convolutional NN (CNN), which I will incorporate later. The loss of the model can be plotted over the training iterations (and is displayed below).
+I then introduce code for going about implementing a simple MLP for this dataset along with the algorithm for training the model. Notice that although MNIST is a dataset of images, I only utilize a feed-forward network to start and not a convolutional NN (CNN), which I will incorporate later. The loss of the model can be plotted over the training iterations (and is displayed below).
 
 ![](Figures/Intro_Figures/FCNN_MNIST_Training.PNG)
 
