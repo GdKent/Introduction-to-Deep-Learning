@@ -2,21 +2,25 @@
 
 ![](img1.PNG)
 
-This repository serves as a place where I will keep a portfolio of a variety of different deep learning projects. These projects are meant to serve as reference for working with different types of deep learning models on different types of data (images, audio, text, multi-modal, etc.).
+This repository serves as a place where I will keep a portfolio of a variety of different deep learning projects. These projects are meant to serve as references for working with different types of deep learning models on different unstructures data types (images, audio, text, multi-modal, etc.).
 
 ## Table of Contents
 1. [Introduction to Deep Learning](#intro)
-2. [Austen-Net: Transformer Decoder Language Model for Text Generation](#austen-net)
-3. [Lit-Net: Transformer Endoder for Literature Embeddings](#lit-net)
-4. [Audio-Net: Audio Classification via Image Recognition](#audio-net)
-5. [Multi-Net: Multi-Modal Architectures](#multi-net)
-6. [Acknowledgments](#acknowledgments)
-7. [License](#license)
+2. [Audio-Net: Audio Classification via Image Recognition](#audio-net)
+3. [Austen-Net: Transformer Decoder Language Model for Text Generation](#austen-net)
+4. [Multi-Net: Multi-Modal Architectures](#multi-net)
+5. [Acknowledgments](#acknowledgments)
+6. [License](#license)
 
-## Introduction
+## Introduction to Neural Networks with Scikit-Learn and Pytorch
+This goal of this project is to serve as a gentle introduction to neural networks (NNs). The code associated with this project is straightforward and is mostly meant to serve as a reference to working with NNs in Scikit-Learn and PyTorch. As such, this project can be split into two parts: (1) NNs with Scikit-Learn and (2) NNs with PyTorch.
 
+The first part of this project starts by implementing a simple multi-layer perceptron (MLP, i.e., a fully-connected feed-forward NN) in Scikit-Learn on a simple tabular Loan Dataset. This consists of importing the dataset, performing simple visualizations and exploratory analysis, followed by training a simple MLPClassifier model in Scikit-Learn. It bears mentioning that none of the NNs in this project are hyper-parameter tuned to perfection, as the project is mainly meant to serve as a reference / introduction to the syntax and process of working with NNs.
 
+The second part of this project focuses on implementing a similar MLP with PyTorch, but now on images (a form of unstructured data). This is accomplished by importing the classic MNIST dataset which consists of images of hand-written digits.
 ![](Figures/Intro_Figures/MNIST_Batch.PNG)
+
+We Then introduce code for going about implementing a simple MLP for this dataset along with the algorithm for training the model. Notice that although MNIST is a dataset of images, we are only utilizing a feed-forward network to start and not a convolutional NN (CNN), which I will incorporate later. The loss of the model can be plotted over the training iterations (and is displayed below).
 
 ![](Figures/Intro_Figures/FCNN_MNIST_Training.PNG)
 
