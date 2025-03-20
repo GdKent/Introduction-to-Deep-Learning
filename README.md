@@ -48,6 +48,10 @@ Once the model has been trained, one can devise any number of evaluation metrics
 
 ## Austen-Net: A Transformer Decoder Language Model for Text Generation
 
+Large-Language models have take the world by storm ever since OpenAI's ChatGPT (GPT standing for Generative Pre-Trained Transformer) went mainstream in 2022; however, the deep NN architectures under the hood of these models (Transformers) immediately began taking over many diffferent problem domains ever since the release of the seminal paper "Attention is All you Need" in 2017, which proposed the simple-yet-effective idea of the attention operator as well as the general transformer architecture. From the original transformer architecture that was proposed in that paper (which would would now be referred to as an encoder-decoder transformer), several sub-architectures were found to be useful for accomplishing different tasks: (1) the encoder-only transformer and (2) the decoder-only transformer. Encoder-only transformers like BERT (Bidirectional Encoder Representations from Transformers) and its variants (HuBERT, ALBERT, etc.) excel at typical supervised learning classification / regression problems. Alternatively, decoder-only transformers like ChatGPT (Google's Gemini, etc.) excel at next-token prediction tasks for sequential data (earning them the name of "Generative Models" as they are able to "generate" the next token in a sequence). Lastly, Encoder-Decoder transformers like Meta's BART (or Google's T5) excel at sequence-conversion tasks, like translating engligh to spanish, etc.
+
+The goal of this project is to serve as an introduction to utilizing these transformer architectures on a language modeling task. Specifically, the project aims at training a customly-implemented decoder-only transformer to generate infinite text in the style of Jane Austen.
+
 The dataset consisted of the eight following novels by Jane Austen:
 - Persuasion
 - Northanger Abbey
