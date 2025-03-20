@@ -17,6 +17,19 @@ This repository serves as a place where I will keep a portfolio of a variety of 
 
 
 
+
+
+
+## Audio-Net: An Audio Classification Model via Image Recognition
+
+The dataset that was utilized for this project was the well-known [GTZAN music genre classification dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification?resource=download).
+
+![](Figures/Audio-Net_Figures/Audio-Net_Training.png)
+
+![](Figures/Audio-Net_Figures/Audio-Net_Batch_Accuracy.png)
+
+
+
 ## Austen-Net: A Transformer Decoder Language Model for Text Generation
 
 The dataset consisted of the eight following novels by Jane Austen:
@@ -35,17 +48,10 @@ The dataset consisted of the eight following novels by Jane Austen:
 
 
 
-## Lit-Net: A Transformer Endoder for Literature Embeddings
 
 
 
-## Audio-Net: An Audio Classification Model via Image Recognition
 
-The dataset that was utilized for this project was the well-known [GTZAN music genre classification dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification?resource=download).
-
-![](Figures/Audio-Net_Figures/Audio-Net_Training.png)
-
-![](Figures/Audio-Net_Figures/Audio-Net_Batch_Accuracy.png)
 
 
 
