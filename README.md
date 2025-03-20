@@ -16,7 +16,9 @@ This repository serves as a place where I will keep a portfolio of a variety of 
 ## Introduction
 
 
+![](Figures/Intro_Figures/MNIST_Batch.PNG)
 
+![](Figures/Intro_Figures/FCNN_MNIST_Training.PNG)
 
 
 
