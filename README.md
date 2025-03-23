@@ -131,8 +131,8 @@ There are a variety of evaluation metrics that one can utilize for a recommendat
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 Note: This repository makes use of third-party datasets including:
-- The [GTZAN music/speech dataset](http://marsyas.info/downloads/datasets.html)
-- The [MSR-VTT video dataset](https://www.microsoft.com/en-us/research/project/msr-vtt-a-large-video-description-dataset/)
+- The [GTZAN music/speech dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification?resource=download)
+- The [MSR-VTT video dataset](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/06/cvpr16.msr-vtt.tmei_-1.pdf)
 - Public domain texts from [Project Gutenberg](https://www.gutenberg.org/) (specifically Jane Austen’s works: *Persuasion*, *Northanger Abbey*, *Mansfield Park*, *Emma*, *Lady Susan*, *Love and Friendship and Other Early Works*, *Pride and Prejudice*, and *Sense and Sensibility*)
 
 These datasets may have their own usage terms or licenses. Please ensure compliance with their respective licenses or terms of use when using this project.
