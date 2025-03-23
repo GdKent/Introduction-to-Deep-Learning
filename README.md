@@ -86,7 +86,7 @@ To generate embeddings related to the video frame data, we utilize the following
 - (5) Aggregate the sample frame embeddings by averaging them together, yielding a single embedding that describes the visual content of the video.
 - (6) Project the aggregated embedding into a final N-dimensional vector space. This final embedding will be the video embedding.
 
-(Image Here)
+![](Figures/Multi-Net_Figures/Video_Encoder.PNG)
 
 ### Audio Encoder (HuBERT)
 
