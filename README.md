@@ -1,6 +1,6 @@
 # Introduction to Deep learning
 
-![](img1.PNG)
+![](Intro_to_DL.PNG)
 
 This repository serves as a place where I will keep a portfolio of a variety of different deep learning projects. These projects are meant to serve as references for working with different types of deep learning models on different unstructures data types (images, audio, text, multi-modal, etc.).
 
