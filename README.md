@@ -34,7 +34,7 @@ Specifically, this project aims at training a deep NN to classify different audi
 
 The dataset that was utilized for this project was the well-known [GTZAN music genre classification dataset](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification?resource=download), which consists audio wave samples of songs / instruments and where the goal is to propperly classify the music genre of any given audio sample (jazz, metal, disco, rock, etc.).
 
-![](Figures/Audio-Net_Figures/Raw_to_Spect.PNG)
+![](Figures/Audio-Net_Figures/Raw_to_Spect.png)
 
 The code provided for this project features a series of different data augmentations that can be applied to the spectrogram images to yeild more training data as well as help the model generalize better. Further, the loss of the model can be plotted over the training iterations (as displayed below) and the training algorithm itself is set-up to plot real-time model improvements.
 
