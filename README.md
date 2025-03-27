@@ -1,5 +1,8 @@
 # Introduction to Deep learning
 
+![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)
+![Python](https://img.shields.io/badge/python-3.9-lightgrey.svg)
+
 ![](Intro_to_DL.PNG)
 
 This repository serves as a place where I will keep a portfolio of a variety of different deep learning projects. These projects are meant to serve as references for working with different types of deep learning models on different unstructures data types (images, audio, text, multi-modal, etc.).
