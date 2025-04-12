@@ -14,8 +14,8 @@ This repository serves as a place where I will keep a portfolio of a variety of 
 4. Multi-Net: Multi-Modal Architectures
 5. License
 
-## Introduction to Neural Networks with Scikit-Learn and Pytorch
-This goal of this project is to serve as a gentle introduction to neural networks (NNs). The code associated with this project is straightforward and is mostly meant to serve as a reference to working with NNs in Scikit-Learn and PyTorch. As such, this project can be split into two parts: (1) NNs with Scikit-Learn and (2) NNs with PyTorch.
+## Introduction to to Deep Learning - Neural Networks with Scikit-Learn and Pytorch
+This goal of this project is to serve as a gentle introduction to neural networks (NNs). Further, the code associated with this project is straightforward and can serve as a reference to working with NNs in Scikit-Learn and PyTorch. As such, this project can be split into two parts: (1) NNs with Scikit-Learn and (2) NNs with PyTorch.
 
 The first part of this project starts by implementing a simple multi-layer perceptron (MLP, i.e., a fully-connected feed-forward NN) in Scikit-Learn on a simple tabular Loan Dataset. This consists of importing the dataset, performing simple visualizations and exploratory analysis, followed by training a simple MLPClassifier model in Scikit-Learn. It bears mentioning that none of the NNs in this project are hyper-parameter tuned to perfection, as the project is mainly meant to serve as a reference / introduction to the syntax and process of working with NNs.
 
