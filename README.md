@@ -11,7 +11,7 @@ This repository serves as a place where I will keep a portfolio of a variety of 
 1. Introduction to Deep Learning
 2. Audio-Net: Audio Classification via Image Recognition
 3. Austen-Net: Transformer Decoder Language Model for Text Generation
-4. Multi-Net: Multi-Modal Architectures
+4. Multi-Net: Multi-Modal Architecture for Video Recommendation
 5. License
 
 ## Introduction to to Deep Learning - Neural Networks with Scikit-Learn and Pytorch
